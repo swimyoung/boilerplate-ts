@@ -1,3 +1,5 @@
 import './index.css';
+import { sum } from './math';
 
-document.body.innerHTML = 'Hello TypeScript';
+const title = `Hello TS ${sum(Math.random(), Math.random())}`;
+document.body.innerHTML = title;
